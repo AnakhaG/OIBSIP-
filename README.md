@@ -35,7 +35,8 @@ Clean UI,
 
 >Technologies Used:
 
-HTML5, 
+HTML5 
+
 CSS3, 
 JavaScript (Task 3)
 
