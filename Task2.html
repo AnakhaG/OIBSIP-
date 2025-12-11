@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- INTERNAL CSS -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            background: #f4f6ff;
+            color: #2b2b2b;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #6a9eff, #a0c3ff);
+            color: white;
+            border-bottom-left-radius: 60px;
+            border-bottom-right-radius: 60px;
+        }
+
+        .hero img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 {
+            font-size: 38px;
+            font-weight: 600;
+        }
+
+        .hero h1 span {
+            color: #ffe5b4;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        /* SECTION TITLE */
+        h2 {
+            text-align: center;
+            font-size: 30px;
+            margin: 40px 0 20px;
+        }
+
+        /* ABOUT SECTION */
+        .about {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            line-height: 1.6;
+            color: #555;
+            font-size: 17px;
+        }
+
+        /* SKILLS */
+        .skills-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .skill {
+            background: white;
+            padding: 12px 25px;
+            border-radius: 30px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .skill:hover {
+            transform: scale(1.1);
+            background: #6a9eff;
+            color: white;
+        }
+
+        /* PROJECTS */
+        .projects-container {
+            width: 85%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .project-card {
+            background: white;
+            padding: 20px;
+            border-radius: 18px;
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-8px);
+            background: #eff4ff;
+        }
+
+        .project-card h3 {
+            color: #3b6cf5;
+            margin-bottom: 10px;
+        }
+
+        /* CONTACT */
+        .contact {
+            text-align: center;
+            margin: 40px 0;
+            font-size: 18px;
+        }
+
+        .contact p {
+            margin: 8px 0;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #3b6cf5;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <img src="https://i.pinimg.com/736x/dc/9c/61/dc9c614e3007080a5aff36aebb949474.jpg" alt="Profile">
+        <h1>Hi, I'm <span>Anakha</span></h1>
+        <p>Creative Web Developer | Designer | Learner</p>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <h2>About Me</h2>
+    <p class="about">
+        I'm a creative and passionate web developer who loves designing simple and beautiful websites.
+        I enjoy exploring new design styles and learning new technologies.  
+        My goal is to improve every day and build unique digital experiences.
+    </p>
+
+    <!-- SKILLS SECTION -->
+    <h2>Skills</h2>
+    <div class="skills-container">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript (Basic)</div>
+        <div class="skill">Python</div>
+        <div class="skill">Canva Design</div>
+        <div class="skill">UI Basics</div>
+    </div>
+
+    <!-- PROJECTS SECTION -->
+    <h2>Projects</h2>
+    <div class="projects-container">
+        <div class="project-card">
+            <h3>🌐 Landing Page</h3>
+            <p>A clean, professional landing page built using pure HTML & CSS.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>💼 Portfolio Website</h3>
+            <p>A beautiful personal portfolio showcasing my work and skills.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>🧮 Calculator</h3>
+            <p>A simple calculator created using HTML, CSS, and JavaScript.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>🎨 UI Design Samples</h3>
+            <p>Creative UI mockups designed using Canva & Figma basics.</p>
+        </div>
+    </div>
+
+    <!-- CONTACT -->
+    <h2>Contact</h2>
+    <div class="contact">
+        <p>Email: anakha@example.com</p>
+        <p>Phone: +91 9876543210</p>
+        <p>LinkedIn: linkedin.com/in/anakha</p>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        © 2025 Anakha | Designed with ❤️
+    </footer>
+
+</body>
+</html>
