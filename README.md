@@ -6,10 +6,10 @@ A fully responsive and visually appealing Landing Page designed for a Creative A
 
 Features:
 
-Sticky navigation bar
-Clean hero section with CTA
-Services section with modern cards
-Professional layout and UI design
+Sticky navigation bar, 
+Clean hero section with CTA, 
+Services section with modern cards, 
+Professional layout and UI design, 
 Built using pure HTML & CSS
 
 Task 2 : PERSONAL PORTFOLIO
@@ -17,26 +17,26 @@ A well-designed personal Portfolio Website to showcase skills, projects, and con
 
 Features:
 
-Attractive hero section with profile image
-Skills and project highlights
-About section
-Hover animations
-Responsive layout
+Attractive hero section with profile image, 
+Skills and project highlights, 
+About section, 
+Hover animations, 
+Responsive layout, 
 
 Task 3 : TEMPERATURE CONVERTER(CALCULATOR)
 A simple yet functional Temperature Converter using HTML, CSS, and JavaScript.
 
 Features:
 
-Converts between Celsius, Fahrenheit, and Kelvin
-Input validation
-Dynamic display of results
-Clean UI
+Converts between Celsius, Fahrenheit, and Kelvin, 
+Input validation, 
+Dynamic display of results, 
+Clean UI, 
 
 Technologies Used:
 
-HTML5
-CSS3
+HTML5, 
+CSS3, 
 JavaScript (Task 3)
 
 How to view the projects 
