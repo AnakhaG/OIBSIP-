@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creative Agency | Landing Page</title>
+    <style>
+        /* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    background: #fff;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+}
+.logo span {
+    color: #0077ff;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+}
+.nav-menu li {
+    margin-left: 20px;
+}
+.nav-menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+.btn {
+    padding: 8px 15px;
+    background: #0077ff;
+    color: white;
+    border-radius: 5px;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 60px;
+}
+
+.hero-text {
+    width: 50%;
+}
+.hero-text h1 {
+    font-size: 48px;
+    color: #222;
+}
+.hero-text p {
+    margin: 20px 0;
+    color: #555;
+    font-size: 18px;
+}
+.hero-btn {
+    padding: 12px 25px;
+    font-size: 18px;
+}
+
+/* HERO IMAGE */
+.hero-img img {
+    width: 450px;
+}
+
+/* SERVICES SECTION */
+.services {
+    padding: 80px 60px;
+    background: #f7f7f7;
+}
+.section-title {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.service-container {
+    display: flex;
+    justify-content: space-between;
+}
+.service-box {
+    width: 32%;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.service-box img {
+    width: 70px;
+    margin-bottom: 15px;
+}
+.service-box h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+
+    </style>
+</head>
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar">
+        <h2 class="logo">Creative<span>Agency</span></h2>
+        <ul class="nav-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a class="btn" href="#">Get Started</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>We Build Digital Products</h1>
+            <p>We design beautiful and functional websites to help brands grow and make a strong online presence.</p>
+            <a href="#" class="btn hero-btn">Explore More</a>
+        </div>
+        <div class="hero-img">
+            <img height="400px" width="500px" src="https://images.squarespace-cdn.com/content/v1/57ad8de5ff7c50d12ce76b68/1595429263897-4FY7ZDPHZWGG7DDQQLM1/ke17ZwdGBToddI8pDm48kOggE0Ch6pMGalwtLMqzsSB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Ufo5RWkg_J4of0jUNHaDHx6pZKBvpVYzidBWCapg0tuoMuEaB2HPGSYDV-11UTcW2g/Engage-285.jpg" alt="Hero Image">
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="services">
+        <h2 class="section-title">Our Services</h2>
+
+        <div class="service-container">
+
+            <div class="service-box">
+                <img src="https://wallpapercave.com/wp/wp6350578.jpg" alt="">
+                <h3>Web Development</h3>
+                <p>We create responsive websites and applications with modern UI/UX trends.</p>
+            </div>
+
+            <div class="service-box">
+                <img src="https://www.appextech.com/img/graphic-design.jpg" alt="">
+                <h3>Graphic Design</h3>
+                <p>Beautiful and engaging graphic designs tailored for your brand identity.</p>
+            </div>
+
+            <div class="service-box">
+                <img src="https://img.freepik.com/premium-photo/3d-digital-marketing_870512-181.jpg?w=2000" alt="">
+                <h3>Digital Marketing</h3>
+                <p>Grow your online reach using SEO, social media strategies, and ad campaigns.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 Creative Agency — All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
